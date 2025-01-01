@@ -1,47 +1,27 @@
-# Interface gráfica
-Tkinter  # Interface Gráfica nativa do Python (substituindo PyQt5)
-
-# Interação com banco de dados MariaDB
-mariadb  # Conexão com banco de dados MariaDB
-python-dotenv  # Carregar variáveis de ambiente de um arquivo .env
-SQLAlchemy  # ORM para abstração e manipulação do banco de dados
-alembic  # Ferramenta para migração e versionamento do banco de dados
-
-# Manipulação de Dados
-pandas  # Manipulação e análise de dados (ex.: relatórios ou cálculos)
-numpy  # Suporte para cálculos numéricos avançados
-
-# Gerenciamento de Notas Fiscais Eletrônicas (NFe)
-xmltodict  # Manipulação de arquivos XML
-pyOpenSSL  # Assinatura digital de NFes
-certifi  # Certificados de segurança para conexões HTTPS
-pycryptodome  # Ferramentas de criptografia para certificados e assinaturas
-requests  # Requisições HTTP (ex.: comunicação com API SEFAZ)
-
-# Geração de relatórios e PDF
-reportlab  # Geração de PDFs
-xhtml2pdf  # Alternativa para PDF a partir de HTML
-
-# Validação de Dados
-python-dateutil  # Manipulação de datas
-pycpfcnpj  # Validação de CPF e CNPJ
-validators  # Validação geral de URLs e outros campos
-
-# Controle de Logs e Debugging
-loguru  # Log avançado
-colorlog  # Logs com cores (útil para debugging)
-
-# Testes
-pytest  # Framework de testes automatizados
-pytest-mock  # Mocking para testes unitários
-pytest-cov  # Cobertura de testes
-faker  # Gerador de dados fictícios para testes
-
-# Controle de Estoque e Relatórios
-tabulate  # Exibição de tabelas no terminal ou relatórios
-openpyxl  # Manipulação de arquivos Excel (ex.: exportação de relatórios)
-matplotlib  # Geração de gráficos (relatórios financeiros)
-
-# Outras utilidades
-pyinstaller  # Empacotamento da aplicação em executáveis
-tqdm  # Barras de progresso para processos demorados
+mariadb
+python-dotenv
+SQLAlchemy
+alembic
+pandas
+numpy
+xmltodict
+pyOpenSSL
+certifi
+pycryptodome
+requests
+reportlab
+xhtml2pdf
+python-dateutil
+pycpfcnpj
+validators
+loguru
+colorlog
+pytest
+pytest-mock
+pytest-cov
+faker
+tabulate
+openpyxl
+matplotlib
+pyinstaller
+tqdm

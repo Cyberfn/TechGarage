@@ -1,0 +1,13 @@
+# Ignorar o arquivo .env
+.env
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
+
+# Ignorar diretórios do IDE (ex.: VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Ignorar a pasta de dependências (se estiver usando venv ou similar)
+venv/

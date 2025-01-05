@@ -26,7 +26,7 @@ def consultar_clientes(filtro_nome=""):
         if conn:
             conn.close()
 
-def inserir_cliente(nome, endereco, telefone, email):
+def cadastro_cliente(nome, endereco, telefone, email):
     conn = None
     try:
         conn = conectar()

@@ -13,7 +13,6 @@ def conectar():
             port=int(os.getenv("DB_PORT")),
             database=os.getenv("DB_NAME")
         )
-        print("Conexão bem-sucedida!")
         return conn
     except mariadb.Error as e:
         print(f"Erro: {e}")
